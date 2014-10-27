@@ -15,7 +15,7 @@
 	<!-- classpath, haxe libs -->
 	<source path="src" />
 	<source path="test" />
-	<haxelib name="openfl" version="2.1.3" />
+	<haxelib name="openfl" version="1.4.0" />
 	<haxelib name="munit" version="2.1.0" />
 	
 </project>
