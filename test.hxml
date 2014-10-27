@@ -1,0 +1,33 @@
+## Flash 9+
+-main TestMain
+-lib munit
+-lib hamcrest
+-lib openfl:2.1.3
+-lib lime:1.0.1
+-cp src
+
+-cp test
+-swf-version 11.6
+-swf build/as3_test.swf
+
+--remap flash:flash
+
+--next
+
+## JavaScript
+##-main TestMain
+##-lib munit
+##-lib hamcrest
+##-lib openfl:2.1.3
+##-lib lime:2.0.0-alpha.5
+##-cp src
+
+##-cp test
+##-js build/js_test.js
+
+##--remap flash:flash
+
+##--next
+
+
+
