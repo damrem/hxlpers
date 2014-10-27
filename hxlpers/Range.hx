@@ -30,5 +30,16 @@ class Range
 		return _max;
 	}
 	
+	public function add(offset:Float)
+	{
+		_min += offset;
+		_max += offset;
+	}
+	
+	function toString():String
+	{
+		return "[object Range (" + _min + ", " + _max + ")]";
+	}
+	
 }
 
