@@ -1,9 +1,9 @@
 import massive.munit.TestSuite;
 
 import ExampleTest;
-import helpers.OverlapTest;
-import helpers.PtTest;
-import helpers.RndTest;
+import hxlpers.geom.PtTest;
+import hxlpers.OverlapTest;
+import hxlpers.RndTest;
 
 /**
  * Auto generated Test Suite for MassiveUnit.
@@ -18,8 +18,8 @@ class TestSuite extends massive.munit.TestSuite
 		super();
 
 		add(ExampleTest);
-		add(helpers.OverlapTest);
-		add(helpers.PtTest);
-		add(helpers.RndTest);
+		add(hxlpers.geom.PtTest);
+		add(hxlpers.OverlapTest);
+		add(hxlpers.RndTest);
 	}
 }
