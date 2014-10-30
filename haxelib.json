@@ -1,7 +1,7 @@
 {
   "name": "hxlpers",
   "url" :
-      "https://github.com/damrem/hxlpers/",
+      "https://github.com/damrem/hxlpers.git",
   "license": "MIT",
   "tags": ["helpers", "misc", "openfl"],
   "description":
@@ -10,8 +10,8 @@
   "releasenote": "Initial release, everything is working correctly",
   "contributors": ["Damien 'damrem' Remars"],
   "dependencies": {
-    "openfl": "1.4.0",
-	"munit": "2.1.0",
-	"hamcrest": "1.2.1"
+	"openfl": "",
+  	"munit": "2.1.0",
+  	"hamcrest": "1.2.1"
   }
 }
